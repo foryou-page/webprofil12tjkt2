@@ -474,57 +474,112 @@ header{
 /* ==========================
         RESPONSIVE
 ========================== */
-
-@media (max-width: 992px) {
-
-    .navbar {
-        height: auto;
-        padding: 10px 18px;
-        flex-wrap: wrap;
-        gap: 6px;
-    }
-
-    .menu {
-        display: flex;
-        width: 100%;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        gap: 4px 7px;
-    }
-
-    .menu li a {
-        padding: 6px 9px;
-        font-size: 11px;
-        white-space: nowrap;
-    }
-}
-
-
 /* =========================
-   HP
+   NAVBAR HP - FIX
    ========================= */
 
 @media (max-width: 576px) {
 
-    .navbar {
-        width: 94%;
-        height: auto;
-        padding: 8px 10px;
-        margin: 0 auto;
-        gap: 4px;
+    header {
+        top: 8px;
+        left: 0;
+        right: 0;
+        z-index: 9999;
     }
 
+    .navbar {
+        width: 94%;
+        min-height: 55px;
+        height: auto;
+        margin: 0 auto;
+        padding: 8px 10px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+
+        box-sizing: border-box;
+    }
+
+    /* LOGO */
+    .logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+    }
+
+    .logo img {
+        width: 35px;
+        height: auto;
+    }
+
+    .logo-text h2 {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .logo-text span {
+        font-size: 9px;
+    }
+
+    /* MENU */
     .menu {
         width: 100%;
-        gap: 3px 5px;
+        display: flex !important;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        gap: 3px 4px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu li {
+        margin: 0;
+        padding: 0;
     }
 
     .menu li a {
-        padding: 5px 7px;
-        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        height: 28px;
+        padding: 0 6px;
+
+        font-size: 9px;
+        line-height: 1;
         white-space: nowrap;
+
+        box-sizing: border-box;
     }
+
+    /* TOMBOL KONTAK */
+    .menu li:last-child a {
+        height: 28px;
+        padding: 0 8px;
+        font-size: 9px;
+    }
+
+
+    /* =========================
+       JUDUL TIDAK TERTUTUP NAVBAR
+       ========================= */
+
+    .page-header,
+    .section-header,
+    .guru-header,
+    .jadwal-header,
+    .project-header,
+    .prestasi-header,
+    .kegiatan-header {
+        margin-top: 130px;
+    }
+
 }
 
 /* ========================================
