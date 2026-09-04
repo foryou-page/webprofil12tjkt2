@@ -4548,3 +4548,58 @@ tr:hover td{
         font-size: 13px;
     }
 }
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .anggota-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+        padding: 0 12px;
+    }
+
+    .anggota-card {
+        padding: 12px 8px;
+        border-radius: 10px;
+    }
+
+    .anggota-card img {
+        width: 55px;
+        height: 55px;
+    }
+
+    .anggota-card h3 {
+        font-size: 10px;
+        line-height: 1.3;
+    }
+
+    .anggota-card p {
+        font-size: 8px;
+        line-height: 1.3;
+    }
+
+    .anggota-card span {
+        font-size: 7px;
+    }
+
+    .anggota-header {
+        padding: 100px 18px 45px;
+    }
+
+    .anggota-header h1 {
+        font-size: 24px;
+    }
+
+    .anggota-header p {
+        font-size: 11px;
+        line-height: 1.6;
+    }
+
+}
