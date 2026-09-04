@@ -4441,3 +4441,110 @@ tr:hover td{
 .contact-item:hover .contact-icon{
     transform:scale(1.05);
 }
+
+
+
+
+
+
+/* =========================
+   FOOTER MOBILE
+========================= */
+@media (max-width: 768px) {
+
+    footer {
+        padding: 45px 20px 20px;
+    }
+
+    .footer-container {
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .footer-brand {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .footer-brand img {
+        width: 70px;
+        margin-bottom: 10px;
+    }
+
+    .footer-brand h2 {
+        font-size: 24px;
+        margin-bottom: 6px;
+    }
+
+    .footer-brand p {
+        font-size: 14px;
+        line-height: 1.6;
+        max-width: 330px;
+        margin: auto;
+    }
+
+    .footer-social {
+        justify-content: center;
+        gap: 18px;
+        margin-top: 20px;
+    }
+
+    .footer-social a {
+        font-size: 20px;
+    }
+
+    /* MENU + AKADEMIK */
+    .footer-links {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+        text-align: center;
+        margin-top: 35px;
+    }
+
+    .footer-links h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .footer-links ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    .footer-links li {
+        margin-bottom: 9px;
+    }
+
+    .footer-links a {
+        font-size: 14px;
+    }
+
+    /* KONTAK */
+    .footer-contact {
+        text-align: center;
+        margin-top: 35px;
+    }
+
+    .footer-contact h3 {
+        font-size: 20px;
+        margin-bottom: 18px;
+    }
+
+    .footer-contact p {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
+    .footer-bottom {
+        margin-top: 30px;
+        padding-top: 18px;
+        text-align: center;
+    }
+
+    .footer-bottom p {
+        font-size: 13px;
+    }
+}
