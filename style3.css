@@ -4661,3 +4661,18 @@ tr:hover td{
         z-index: 10;
     }
 }
+
+@media (max-width: 768px) {
+    .jadwal-header {
+        margin-top: -180px;
+        padding: 300px 20px 80px;
+        position: relative;
+        z-index: 1;
+    }
+}
+@media (max-width: 768px) {
+    .navbar {
+        position: relative;
+        z-index: 10;
+    }
+}
