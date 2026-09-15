@@ -4603,3 +4603,27 @@ tr:hover td{
     }
 
 }
+
+
+
+
+@media (max-width: 768px) {
+    .kegiatan-container {
+        grid-template-columns: 1fr !important;
+        margin: -60px 20px 60px;
+        padding: 25px;
+        gap: 25px;
+    }
+
+    .kegiatan-card:nth-child(4) {
+        grid-column: auto !important;
+    }
+
+    .kegiatan-card img {
+        height: 220px;
+    }
+
+    .kegiatan-card h2 {
+        font-size: 22px;
+    }
+}
