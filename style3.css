@@ -4645,3 +4645,19 @@ tr:hover td{
         font-size: 22px;
     }
 }
+
+
+@media (max-width: 768px) {
+    .guru-header {
+        margin-top: -180px;
+        padding: 300px 20px 80px;
+        position: relative;
+        z-index: 1;
+    }
+}
+@media (max-width: 768px) {
+    .navbar {
+        position: relative;
+        z-index: 10;
+    }
+}
