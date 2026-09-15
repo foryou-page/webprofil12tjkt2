@@ -4603,6 +4603,24 @@ tr:hover td{
     }
 
 }
+/* RESPONSIVE ANGGOTA */
+@media (max-width: 768px) {
+    .anggota-container {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 18px;
+        margin: 30px 20px;
+        padding: 0;
+    }
+
+    .anggota-card {
+        width: 100%;
+    }
+
+    .anggota-card img {
+        width: 90px;
+        height: 90px;
+    }
+}
 
 
 
