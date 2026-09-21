@@ -4645,6 +4645,43 @@ tr:hover td{
         font-size: 22px;
     }
 }
+@media (max-width: 768px) {
+    .kegiatan-container {
+        grid-template-columns: 1fr !important;
+        gap: 25px;
+        margin: -45px 20px 50px;
+        padding: 20px;
+    }
+.kegiatan-header {
+        margin-top: -180px;
+        padding: 300px 20px 80px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .kegiatan-card {
+        width: 100%;
+    }
+
+    .kegiatan-card img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+    }
+
+    .kegiatan-card h2 {
+        padding: 18px 20px 8px;
+        font-size: 24px;
+        line-height: 1.3;
+    }
+
+    .kegiatan-card p {
+        padding: 0 20px 20px;
+        font-size: 15px;
+        line-height: 1.7;
+        text-align: left;
+    }
+}
 
 
 @media (max-width: 768px) {
