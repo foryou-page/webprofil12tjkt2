@@ -4693,3 +4693,14 @@ tr:hover td{
         z-index: 10;
     }
 }
+
+
+
+@media (max-width: 768px) {
+    .prestasi-header {
+        margin-top: -180px;
+        padding: 300px 20px 80px;
+        position: relative;
+        z-index: 1;
+    }
+}
